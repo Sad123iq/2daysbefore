@@ -1,0 +1,54 @@
+.siteHeader {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.headerTop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+  &Left {
+    ul {
+      display: flex;
+      gap: 10px;
+    }
+  }
+  &Right {
+    display: flex;
+    gap: 20px;
+    &Num {
+      display: flex;
+      gap: 10px;
+    }
+    &Mail {
+      display: flex;
+      gap: 10px;
+    }
+  }
+}
+.headerBottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0;
+  &Left h2 {
+    font-size: 32px;
+    font-weight: 900;
+  }
+  &Left span {
+    font-size: 32px;
+    font-weight: 900;
+    color: #f16821;
+  }
+  &Right ul {
+    display: flex;
+    gap: 10px;
+    li a{
+      text-decoration: none;
+      color: black;
+    }
+  }
+}

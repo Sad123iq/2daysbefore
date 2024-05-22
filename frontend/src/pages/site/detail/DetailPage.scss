@@ -1,0 +1,17 @@
+.detailPage{
+    padding: 20px 100px;
+}
+.cardDetail{
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    img{
+        width: 300px;
+    }
+}
+.cardDetailBody{
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

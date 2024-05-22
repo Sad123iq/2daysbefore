@@ -1,0 +1,17 @@
+.shopWithUs{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://preview.colorlib.com/theme/selling/images/hero_2.jpg.webp");
+    color: white;
+    position: relative;
+}
+.shopWithUsInner{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    h1{
+        font-size: 80px;
+        font-weight: 900;
+    }
+}
